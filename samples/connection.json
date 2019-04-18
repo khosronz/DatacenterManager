@@ -1,0 +1,80 @@
+[
+    {
+        "name": "id",
+        "dbType": "bigIncrements",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "username",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    },
+    {
+        "name": "password",
+        "dbType": "string",
+        "htmlType": "password",
+        "searchable": false,
+        "inForm": true,
+        "inIndex": false
+    },
+    {
+        "name": "port",
+        "dbType": "string",
+        "htmlType": "number",
+        "validations": "required",
+        "searchable": true
+    },
+    {
+        "name": "user_id",
+        "dbType": "bigInteger:unsigned:default,0:foreign,users,id",
+        "htmlType": "text",
+        "relation": "mt1,User,user_id,id"
+    },
+    {
+        "name": "connectiontype_id",
+        "dbType": "bigInteger:unsigned:default,0:foreign,connectiontypes,id",
+        "htmlType": "text",
+        "relation": "mt1,Connectiontype,connectiontype_id,id"
+    },
+    {
+        "name": "software_id",
+        "dbType": "bigInteger:unsigned:default,0:foreign,software,id",
+        "htmlType": "text",
+        "relation": "mt1,Software,software_id,id"
+    },
+    {
+        "name": "desc",
+        "dbType": "text",
+        "htmlType": "textarea"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

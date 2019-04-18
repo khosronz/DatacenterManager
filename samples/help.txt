@@ -1,0 +1,6 @@
+php artisan infyom:api_scaffold $MODEL_NAME --fieldsFile=samples/sample.json --paginate=10 --datatables=true
+php artisan infyom:rollback $MODEL_NAME $COMMAND_TYPE
+    Where,
+        $MODEL_NAME - Its a model name for which you want to delete files
+
+        $COMMAND_TYPE - Command type from api, scaffold or api_scaffold

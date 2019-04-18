@@ -1,0 +1,83 @@
+[
+  {
+    "name": "id",
+    "dbType": "increments",
+    "htmlType": "",
+    "validations": "",
+    "searchable": false,
+    "fillable": false,
+    "primary": true,
+    "inForm": false,
+    "inIndex": false
+  },
+  {
+    "name": "title",
+    "dbType": "string:unique",
+    "default": "",
+    "htmlType": "text",
+    "validations": "required",
+    "searchable": true,
+    "fillable": true,
+    "primary": false,
+    "inForm": true,
+    "inIndex": true
+  },
+  {
+    "name": "parent_id",
+    "dbType": "integer:unsigned:nullable:foreign,organizations,id",
+    "htmlType": "text",
+    "relation": "mt1,Organization,parent_id,id"
+  },
+  {
+    "name": "user_id",
+    "dbType": "integer:unsigned:nullable:foreign,users,id",
+    "htmlType": "text",
+    "relation": "mt1,User,user_id,id"
+  },
+  {
+    "name": "status",
+    "dbType": "string",
+    "default": "",
+    "htmlType": "text",
+    "validations": "required",
+    "searchable": true,
+    "fillable": true,
+    "primary": false,
+    "inForm": true,
+    "inIndex": true
+  },
+  {
+    "name": "desc",
+    "dbType": "string",
+    "default": "",
+    "htmlType": "textarea",
+    "validations": "",
+    "searchable": true,
+    "fillable": true,
+    "primary": false,
+    "inForm": true,
+    "inIndex": true
+  },
+  {
+    "name": "created_at",
+    "dbType": "timestamp:nullable",
+    "htmlType": "",
+    "validations": "",
+    "searchable": false,
+    "fillable": false,
+    "primary": false,
+    "inForm": false,
+    "inIndex": false
+  },
+  {
+    "name": "updated_at",
+    "dbType": "timestamp:nullable",
+    "htmlType": "",
+    "validations": "",
+    "searchable": false,
+    "fillable": false,
+    "primary": false,
+    "inForm": false,
+    "inIndex": false
+  }
+]
