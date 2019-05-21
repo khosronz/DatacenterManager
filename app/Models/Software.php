@@ -91,8 +91,41 @@ class Software extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      **/
+    public function connections()
+    {
+        return $this->hasMany(\App\Models\Connection::class, 'software_id', 'id');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     **/
     public function user()
     {
         return $this->belongsTo(\App\User::class, 'user_id', 'id');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     **/
+    public function softwareUsers()
+    {
+        return $this->hasMany(\App\Models\Softwareuser::class, 'software_id', 'id');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     **/
+    public function webaddresses()
+    {
+        return $this->hasMany(\App\Models\Webaddress::class, 'software_id', 'id');
+    }
+
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     **/
+    public function descs()
+    {
+        return $this->hasMany(\App\Models\Softwaredesc::class, 'software_id', 'id');
     }
 }

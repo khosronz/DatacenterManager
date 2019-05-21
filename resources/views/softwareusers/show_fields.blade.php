@@ -25,7 +25,7 @@
 <!-- User Related Id Field -->
 <div class="form-group col-sm-3">
     {!! Form::label('user_related_id', __('User Related Id').':') !!}
-    <p>{!! $softwareuser->userRelated->name !!}</p>
+    <p>{!! $softwareuser->softwareUsers->name !!}</p>
 </div>
 
 <!-- Software Id Field -->

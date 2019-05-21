@@ -6,6 +6,9 @@
 
             <!-- Main content -->
             <section class="content">
+                <div class="row">
+                    @include('adminlte-templates::common.errors')
+                </div>
 
                 <div class="row">
                     <div class="col-md-3">
@@ -13,26 +16,14 @@
                         <!-- Profile Image -->
                         <div class="box box-primary">
                             <div class="box-body box-profile">
-                                <img class="profile-user-img img-responsive img-circle"
-                                     src="{{asset("img/user_image.png")}}" alt="User profile picture">
-
-                                <h3 class="profile-username text-center">{{\Illuminate\Support\Facades\Auth::user()->name}}</h3>
+                               <h3 class="profile-username text-center">{{\Illuminate\Support\Facades\Auth::user()->name}}</h3>
 
                                 <p class="text-muted text-center">{{\Illuminate\Support\Facades\Auth::user()->desc}}</p>
+                                {!! Form::open(['route' => 'software.showdetails','method'=>"GET"]) !!}
+                                {{ csrf_field() }}
+                                @include('software.fields-select')
 
-                                <ul class="list-group list-group-unbordered">
-                                    <li class="list-group-item">
-                                        <b>Followers</b> <a class="pull-right">1,322</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <b>Following</b> <a class="pull-right">543</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <b>Friends</b> <a class="pull-right">13,287</a>
-                                    </li>
-                                </ul>
-
-                                <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+                                {!! Form::close() !!}
                             </div>
                             <!-- /.box-body -->
                         </div>
@@ -41,32 +32,106 @@
                         <!-- About Me Box -->
                         <div class="box box-primary">
                             <div class="box-header with-border">
-                                <h3 class="box-title">About Me</h3>
+                                <h3 class="box-title">@lang('About Software')</h3>
                             </div>
                             <!-- /.box-header -->
                             <div class="box-body">
-                                <strong><i class="fa fa-book margin-r-5"></i> Education</strong>
+                                <strong><i class="fa fa-book margin-r-5"></i> @lang('Connections')</strong>
+                                @if(!empty($software))
+
+                                    <p class="text-muted">
+                                        @if(!empty($software->connections))
+                                            <span class="label label-success">
+                                            @php
+                                                foreach ($software->connections as $connection){
+
+
+                                            @endphp
+                                                {{$connection->connectiontype->title . ':'. $connection->port . ' / ' }}
+                                                @php
+                                                    }
+                                                @endphp
+                                        </span>
+                                        @else
+                                            <span class="label label-danger">@lang('Not Found Connection')</span>
+                                        @endif
+                                    </p>
+                                @endif
+
+
+                                <hr>
+
+                                <strong><i class="fa fa-map-marker margin-r-5"></i> @lang('Location')</strong>
 
                                 <p class="text-muted">
-                                    B.S. in Computer Science from the University of Tennessee at Knoxville
+                                    @if(!empty($software))
+                                        <span class="label label-success">
+                                            {{ $software->location->title . ' / ' }}
+                                        </span>
+                                    @endif
                                 </p>
 
                                 <hr>
 
-                                <strong><i class="fa fa-map-marker margin-r-5"></i> Location</strong>
+                                <strong><i class="fa fa-pencil margin-r-5"></i> @lang('Users')</strong>
 
-                                <p class="text-muted">Malibu, California</p>
+                                <p>
+                                    @if(!empty($software))
+                                        @if(count($software->softwareUsers)!=0)
+                                            @php
+                                                foreach ($software->softwareUsers as $u){
+                                            @endphp
+                                                    <span class="label label-success">{{$u->softwareUsers->name . ':'. $u->title . ' / ' }}</span>
+                                            @php
+                                                }
+                                            @endphp
+                                        @else
+                                            <span class="label label-danger">@lang('Not Found User')</span>
+                                        @endif
+                                    @endif
+                                </p>
+                                <hr>
+
+                                <strong><i class="fa fa-pencil margin-r-5"></i> @lang('Domain')</strong>
+
+                                <p>
+                                    @if(!empty($software))
+                                        <span class="label label-success">{{$software->domain->url }}</span>
+                                    @else
+                                        <span class="label label-danger">@lang('Not Found Domain')</span>
+                                    @endif
+                                </p>
 
                                 <hr>
 
-                                <strong><i class="fa fa-pencil margin-r-5"></i> Skills</strong>
+                                <strong><i class="fa fa-pencil margin-r-5"></i> @lang('OS')</strong>
 
                                 <p>
-                                    <span class="label label-danger">UI Design</span>
-                                    <span class="label label-success">Coding</span>
-                                    <span class="label label-info">Javascript</span>
-                                    <span class="label label-warning">PHP</span>
-                                    <span class="label label-primary">Node.js</span>
+                                    @if(!empty($software))
+                                        <span class="label label-success">{{$software->os->title }}</span>
+                                    @endif
+                                </p>
+
+                                <hr>
+
+                                <strong><i class="fa fa-pencil margin-r-5"></i> @lang('Webaddresses')</strong>
+
+                                <p>
+                                    @if(!empty($software))
+                                        @if(count($software->webaddresses)!=0)
+                                            @php
+                                                foreach ($software->webaddresses as $webaddress){
+                                            @endphp
+                                                    <span class="label label-success">{{$webaddress->title}}</span>
+                                                    <span class="label label-success">{{$webaddress->url}}</span>
+                                                    <hr>
+                                            @php
+                                                }
+                                            @endphp
+                                        @else
+                                            <span class="label label-danger">@lang('Not Found Webaddress')</span>
+                                        @endif
+                                    @endif
                                 </p>
 
                                 <hr>
@@ -232,43 +297,37 @@
                         </span>
                                         </li>
                                         <!-- /.timeline-label -->
-                                        <!-- timeline item -->
-                                        <li>
-                                            <i class="fa fa-envelope bg-blue"></i>
+                                        @if(!empty($software))
+                                            @if(count($software->descs)!=0)
+                                                @php
+                                                    foreach ($software->descs as $desc){
+                                                @endphp
+                                                <!-- timeline item -->
+                                                    <li>
+                                                        <i class="fa fa-envelope bg-blue"></i>
 
-                                            <div class="timeline-item">
-                                                <span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
+                                                        <div class="timeline-item">
+                                                            <span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
 
-                                                <h3 class="timeline-header"><a href="#">Support Team</a> sent you an
-                                                    email</h3>
+                                                            <h3 class="timeline-header"><a href="#">{{$desc->user->name}}</a> @lang('sent you an email')</h3>
 
-                                                <div class="timeline-body">
-                                                    Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
-                                                    weebly ning heekya handango imeem plugg dopplr jibjab, movity
-                                                    jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo
-                                                    kaboodle
-                                                    quora plaxo ideeli hulu weebly balihoo...
-                                                </div>
-                                                <div class="timeline-footer">
-                                                    <a class="btn btn-primary btn-xs">Read more</a>
-                                                    <a class="btn btn-danger btn-xs">Delete</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <!-- END timeline item -->
-                                        <!-- timeline item -->
-                                        <li>
-                                            <i class="fa fa-user bg-aqua"></i>
-
-                                            <div class="timeline-item">
-                                                <span class="time"><i class="fa fa-clock-o"></i> 5 mins ago</span>
-
-                                                <h3 class="timeline-header no-border"><a href="#">Sarah Young</a>
-                                                    accepted your friend request
-                                                </h3>
-                                            </div>
-                                        </li>
-                                        <!-- END timeline item -->
+                                                            <div class="timeline-body">
+                                                                {{$desc->desc}}
+                                                            </div>
+                                                            <div class="timeline-footer">
+                                                                <a class="btn btn-primary btn-xs">Read more</a>
+                                                                <a class="btn btn-danger btn-xs">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!-- END timeline item -->
+                                                @php
+                                                    }
+                                                @endphp
+                                            @else
+                                                <span class="label label-danger">@lang('Not Found Desc')</span>
+                                        @endif
+                                    @endif
                                         <!-- timeline item -->
                                         <li>
                                             <i class="fa fa-comments bg-yellow"></i>

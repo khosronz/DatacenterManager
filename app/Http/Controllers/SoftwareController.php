@@ -84,6 +84,27 @@ class SoftwareController extends AppBaseController
     }
 
     /**
+     * Display the specified Software.
+     *
+     * @param int $id
+     *
+     * @return Response
+     */
+    public function showdetails()
+    {
+        $input=request()->all();
+        $software = $this->softwareRepository->find($input['software_id']);
+
+        if (empty($software)) {
+            Flash::error('Software not found');
+
+            return redirect(route('software.index'));
+        }
+
+        return view('home')->with('software', $software);
+    }
+
+    /**
      * Show the form for editing the specified Software.
      *
      * @param int $id

@@ -9,6 +9,7 @@
   "Logout": "خروج از سیستم",
   "Profile": "حساب کاربری",
   "Username": "نام کاربری",
+  "Users": "کاربر مرتبط",
   "User Id": "نام کاربری (آخرین تغییر دهنده)",
   "ChildId": "رده مادون",
   "Password": "کلمه عبور",
@@ -209,5 +210,15 @@
   "Vm Id": "ماشین مجازی",
   "Organization User": "استفاده کننده",
   "Organization Owner": "مالک",
-  "Online":"آنلاین"
+  "Online":"آنلاین",
+  "About Software":"درباره سامانه/تجهیز",
+  "Not Found User":"هیچ کاربری ثبت نشده",
+  "Not Found Connection":"هیچ ارتباطی ثبت نشده",
+  "Not Found Location":"هیچ ارتباطی ثبت نشده",
+  "Not Found Domain":"هیچ دامینی ثبت نشده",
+  "Not Found Webaddress":"هیچ آدرس وبی ثبت نشده",
+  "Not Found Desc":"هیچ توضیحی برای اسن سامانه/تجهیز ثبت نشده",
+  "sent you an email":"این گزارش را ثبت کرده است",
+  "Details":"مشاهده جزئیات"
+
 }

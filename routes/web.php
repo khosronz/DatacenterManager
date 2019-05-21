@@ -70,7 +70,9 @@ Route::resource('ipranges', 'IprangeController');
 
 Route::resource('phonebooks', 'PhonebookController');
 
+Route::get('software/showdetails', 'SoftwareController@showdetails')->name('software.showdetails');
 Route::resource('software', 'SoftwareController');
+
 
 Route::resource('portsoftwares', 'PortsoftwareController');
 

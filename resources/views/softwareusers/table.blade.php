@@ -17,7 +17,7 @@
             <td>{!! $softwareuser->title !!}</td>
             <td>{!! $softwareuser->status ? 'فعال' : 'غیرفعال' !!}</td>
             <td>{!! $softwareuser->user->name !!}</td>
-            <td>{!! $softwareuser->userRelated->name !!}</td>
+            <td>{!! $softwareuser->softwareUsers->name !!}</td>
             <td>{!! $softwareuser->software->server_name !!}</td>
             <td>{!! $softwareuser->desc !!}</td>
             <td>

@@ -68,7 +68,7 @@ class Softwareuser extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      **/
-    public function userRelated()
+    public function softwareUsers()
     {
         return $this->belongsTo(\App\User::class, 'user_related_id', 'id');
     }
