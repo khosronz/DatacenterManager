@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faa77dcd-436d-4ca7-b8da-bf5dde7022d9" name="Default" comment="Translate Roleuser and make seeder for Role">
-      <change afterPath="$PROJECT_DIR$/resources/views/software/fields-select.blade.php" afterDir="false" />
+    <list default="true" id="faa77dcd-436d-4ca7-b8da-bf5dde7022d9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-date/dist/persian-date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-date/dist/persian-date.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/persian-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/persian-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/persian-datepicker.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/theme/persian-datepicker-blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/theme/persian-datepicker-blue.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/theme/persian-datepicker-cheerup.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/theme/persian-datepicker-cheerup.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/theme/persian-datepicker-dark.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/theme/persian-datepicker-dark.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/theme/persian-datepicker-redblack.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/css/theme/persian-datepicker-redblack.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/doc/API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/doc/OPTIONS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/initial-value.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/js/persian-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/js/persian-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/persian-datepicker/dist/single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SoftwareController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SoftwareController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Software.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Software.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Softwareuser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Softwareuser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SoftwaredescController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SoftwaredescController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/softwareusers/show_fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/softwareusers/show_fields.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/softwareusers/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/softwareusers/table.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/datatables_css.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/datatables_css.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/datatables_js.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/datatables_js.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/softwaredescs/fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/softwaredescs/fields.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +53,7 @@
       <file leaf-file-name="Software.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Software.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
+            <state relative-caret-position="348">
               <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
             </state>
           </provider>
@@ -37,17 +62,47 @@
       <file leaf-file-name="Softwaredesc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Softwaredesc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="792">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fa.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/lang/fa.json">
+      <file leaf-file-name="fields.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/softwaredescs/fields.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="48" />
+            <state relative-caret-position="229">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftwaredescController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SoftwaredescController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+              <folding>
+                <element signature="e#40#88#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datatables_css.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/datatables_css.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datatables_js.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/datatables_js.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -55,8 +110,17 @@
       <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="311" column="150" selection-start-line="311" selection-start-column="150" selection-end-line="311" selection-end-column="150" />
+            <state relative-caret-position="-2400">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -65,11 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logout</find>
-      <find>user-panel</find>
-      <find>Domain</find>
-      <find>سامانه</find>
-      <find>date</find>
       <find>phoneboo</find>
       <find>location</find>
       <find>email</find>
@@ -95,6 +154,11 @@
       <find>userRelated-&gt;name</find>
       <find>user</find>
       <find>Timeli</find>
+      <find>user-&gt;na</find>
+      <find>crea</find>
+      <find>date</find>
+      <find>node_modules/persian-datepicker</find>
+      <find>csr</find>
     </findStrings>
     <dirStrings>
       <dir>C:\dev\Homestead2\code\project5</dir>
@@ -102,6 +166,7 @@
       <dir>C:\dev\Homestead2\code\project5\</dir>
       <dir>C:\dev\Homestead2\code\project4</dir>
       <dir>C:\dev\Homestead2\code\project4\samples</dir>
+      <dir>C:\dev\Homestead2\code\project4\node_modules</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -116,15 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/databases/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/databases/fields.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/databases/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/databases/table.blade.php" />
-        <option value="$PROJECT_DIR$/app/Models/Database.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DatabaseController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_30_142006_create_databases_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/databases/show_fields.blade.php" />
-        <option value="$PROJECT_DIR$/samples/softwareorganization.json" />
         <option value="$PROJECT_DIR$/app/Models/Softwareorganization.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_30_155011_create_softwareorganizations_table.php" />
         <option value="$PROJECT_DIR$/resources/views/softwareorganizations/create.blade.php" />
@@ -165,8 +221,17 @@
         <option value="$PROJECT_DIR$/resources/views/software/fields-select.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Softwareuser.php" />
         <option value="$PROJECT_DIR$/app/Models/Software.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/lang/fa.json" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SoftwaredescController.php" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/datatables_js.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/datatables_css.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/softwaredescs/fields.blade.php" />
       </list>
     </option>
   </component>
@@ -295,7 +360,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,31 +383,32 @@
               <item name="project4" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="fa&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/lang/fa.json&#10;Software&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Softwareuser.php&#10;Softwareuser&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Softwareuser.php&#10;Soft&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Software.php&#10;fa.&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/lang/fa.json&#10;web&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/routes/web.php&#10;fie&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/roleusers/fields.blade.php&#10;SoftwareCo&#9;null&#9;null&#10;web.&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/routes/web.php&#10;زقثش&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/roleusers/create.blade.php&#10;fa.js&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/lang/fa.json&#10;software&#9;null&#9;null&#10;Softwa&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_04_01_133111_create_softwareusers_table.php&#10;fields&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/roleusers/fields.blade.php&#10;help&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/samples/help.txt&#10;secu&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu/security_menu.blade.php&#10;menu&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu.blade.php&#10;roles&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_19_151501_create_roles_table.php&#10;Seeder&#9;null&#9;null&#10;role&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_04_01_141212_create_roleusers_table.php&#10;roleusers&#9;null&#9;null&#10;roleU&#9;null&#9;null&#10;software_m&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu/software_menu.blade.php&#10;softwareusers&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_04_01_133111_create_softwareusers_table.php&#10;softwarem&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu/software_menu.blade.php&#10;ئثدع&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu.blade.php&#10;softwareorganizations&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_155011_create_softwareorganizations_table.php&#10;softwareo&#9;null&#9;null&#10;sample&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/samples/fields_sample.json&#10;databases&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_142006_create_databases_table.php&#10;Database co&#9;null&#9;null&#10;Database&#9;null&#9;null&#10;databasety&#9;null&#9;null&#10;conne&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_132804_create_connections_table.php&#10;Conne&#9;null&#9;null&#10;Connectio&#9;null&#9;null&#10;connections&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_132804_create_connections_table.php&#10;vms&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_120706_create_vms_table.php&#10;VmC&#9;null&#9;null&#10;Vm&#9;null&#9;null&#10;register&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/auth/register.blade.php&#10;vmtypes&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_20_170703_create_vmtypes_table.php&#10;بش&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/lang/fa.json&#10;fa.s&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/vendor/laravel/framework/src/Illuminate/Foundation/stubs/facade.stub&#10;Softwared&#9;null&#9;null&#10;softwaredescs&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_102757_create_softwaredescs_table.php&#10;webaddress.j&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/samples/webaddress.json&#10;webadd&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Webaddress.php&#10;Webadd&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/js/app.js&#10;softwarede&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/softwaredescs&#10;software&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Softwaredesc.php&#10;fa&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/lang/fa.json&#10;Software&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Softwareuser.php&#10;Softwareuser&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Softwareuser.php&#10;Soft&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Software.php&#10;fa.&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/lang/fa.json&#10;web&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/routes/web.php&#10;fie&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/roleusers/fields.blade.php&#10;SoftwareCo&#9;null&#9;null&#10;web.&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/routes/web.php&#10;زقثش&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/roleusers/create.blade.php&#10;fa.js&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/lang/fa.json&#10;Softwa&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_04_01_133111_create_softwareusers_table.php&#10;fields&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/roleusers/fields.blade.php&#10;help&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/samples/help.txt&#10;secu&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu/security_menu.blade.php&#10;menu&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu.blade.php&#10;roles&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_19_151501_create_roles_table.php&#10;Seeder&#9;null&#9;null&#10;role&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_04_01_141212_create_roleusers_table.php&#10;roleusers&#9;null&#9;null&#10;roleU&#9;null&#9;null&#10;software_m&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu/software_menu.blade.php&#10;softwareusers&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_04_01_133111_create_softwareusers_table.php&#10;softwarem&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu/software_menu.blade.php&#10;ئثدع&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/layouts/menu.blade.php&#10;softwareorganizations&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_155011_create_softwareorganizations_table.php&#10;softwareo&#9;null&#9;null&#10;sample&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/samples/fields_sample.json&#10;databases&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_142006_create_databases_table.php&#10;Database co&#9;null&#9;null&#10;Database&#9;null&#9;null&#10;databasety&#9;null&#9;null&#10;conne&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_132804_create_connections_table.php&#10;Conne&#9;null&#9;null&#10;Connectio&#9;null&#9;null&#10;connections&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_132804_create_connections_table.php&#10;vms&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_120706_create_vms_table.php&#10;VmC&#9;null&#9;null&#10;Vm&#9;null&#9;null&#10;register&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/views/auth/register.blade.php&#10;vmtypes&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_20_170703_create_vmtypes_table.php&#10;بش&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/resources/lang/fa.json&#10;fa.s&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/vendor/laravel/framework/src/Illuminate/Foundation/stubs/facade.stub&#10;Softwared&#9;null&#9;null&#10;softwaredescs&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/database/migrations/2019_03_30_102757_create_softwaredescs_table.php&#10;webaddress.j&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/samples/webaddress.json&#10;webadd&#9;FILE&#9;file://C:/dev/Homestead2/code/project4/app/Models/Webaddress.php" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\Homestead2\code\project5\public\assets\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\Homestead2\code\project4\public\assets\persian-date" />
+      <recent name="C:\dev\Homestead2\code\project4\public\assets\persian-datepicker" />
       <recent name="C:\dev\Homestead2\code\project4\resources\views\software" />
       <recent name="C:\dev\Homestead2\code\project4\samples" />
       <recent name="C:\dev\Homestead2\code\project4\resources\views\layouts\menu" />
-      <recent name="C:\dev\Homestead2\code\project4\resources\js\components" />
-      <recent name="C:\dev\Homestead2\code\project4\database\seeds" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\Homestead2\code\project5\public\assets\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,7 +476,9 @@
       <workItem from="1558354759041" duration="475000" />
       <workItem from="1558355991488" duration="2188000" />
       <workItem from="1558373303652" duration="2135000" />
-      <workItem from="1558397787906" duration="4214000" />
+      <workItem from="1558397787906" duration="4277000" />
+      <workItem from="1558456298609" duration="2758000" />
+      <workItem from="1558484698606" duration="3067000" />
     </task>
     <task id="LOCAL-00001" summary="Change Panel to persian and make rtl some pages">
       <created>1552750689293</created>
@@ -721,25 +788,40 @@
       <option name="project" value="LOCAL" />
       <updated>1554113529312</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Add Software dashboard">
+      <created>1558402055627</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1558402055627</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119363000" />
+    <option name="totallyTimeSpent" value="125251000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289256" />
-      <window_info id="npm" order="2" sideWeight="0.5073892" side_tool="true" weight="0.29430893" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289256" />
+      <window_info id="npm" order="2" sideWeight="0.513382" side_tool="true" weight="0.2736842" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843137" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49261084" weight="0.3708502" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.486618" visible="true" weight="0.2736842" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
@@ -759,7 +841,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" sideWeight="0.5073892" side_tool="true" weight="0.29430893" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49261084" visible="true" weight="0.298374" />
@@ -767,18 +849,18 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289256" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.3289256" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3289256" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -824,7 +906,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Translate Software and add Location, Cities, Province seeder" />
     <MESSAGE value="Scaffold Portsoftware" />
     <MESSAGE value="Translate Portsoftware" />
     <MESSAGE value="Seeder for Software and add created_at, updated_at to the city table seeder" />
@@ -849,86 +930,10 @@
     <MESSAGE value="Organize Menu" />
     <MESSAGE value="Scaffold Roleuser" />
     <MESSAGE value="Translate Roleuser and make seeder for Role" />
-    <option name="LAST_COMMIT_MESSAGE" value="Translate Roleuser and make seeder for Role" />
+    <MESSAGE value="Add Software dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Software dashboard" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/softwareorganizations/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="6" column="154" selection-start-line="6" selection-start-column="154" selection-end-line="6" selection-end-column="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/softwareorganizations/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="124" lean-forward="true" selection-start-line="15" selection-start-column="124" selection-end-line="15" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/softwareorganizations/table.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/vm.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/domain.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/connection.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/connectiontype.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/database.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/databasetype.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/iprange.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/fields_sample.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="78" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/softwareorganizations/show_fields.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_01_131834_create_softwareusers_table.php" />
     <entry file="file://$PROJECT_DIR$/samples/softwareuser.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -1137,13 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="90" column="47" selection-start-line="88" selection-start-column="40" selection-end-line="90" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/software/fields-select.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1167,22 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Software.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
+        <state relative-caret-position="348">
           <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Softwaredesc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="311" column="150" selection-start-line="311" selection-start-column="150" selection-end-line="311" selection-end-column="150" />
         </state>
       </provider>
     </entry>
@@ -1190,6 +1174,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/BaseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="134" column="49" selection-start-line="134" selection-start-column="49" selection-end-line="134" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/SoftwaredescRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Softwaredesc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-491" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/persian-date/dist/persian-date.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" selection-start-line="46" selection-end-line="55" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/persian-datepicker/dist/js/persian-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1451" column="11" lean-forward="true" selection-start-line="1451" selection-start-column="11" selection-end-line="1451" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/datatables_css.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/datatables_js.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2400">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SoftwaredescController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+          <folding>
+            <element signature="e#40#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/softwaredescs/fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>

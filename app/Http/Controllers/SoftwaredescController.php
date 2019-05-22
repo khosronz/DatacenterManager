@@ -7,6 +7,7 @@ use App\Http\Requests\UpdateSoftwaredescRequest;
 use App\Repositories\SoftwaredescRepository;
 use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 use Flash;
 use Response;
 
@@ -55,6 +56,9 @@ class SoftwaredescController extends AppBaseController
     public function store(CreateSoftwaredescRequest $request)
     {
         $input = $request->all();
+        $mytime = Carbon::now();
+
+        dd($input['desc_date']=$input['desc_date'].' '.$mytime->toTimeString());
 
         $softwaredesc = $this->softwaredescRepository->create($input);
 

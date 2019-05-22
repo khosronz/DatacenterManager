@@ -13,7 +13,8 @@
 <!-- Desc Date Field -->
 <div class="form-group col-sm-3">
     {!! Form::label('desc_date', __('Desc Date').':') !!}
-    {!! Form::date('desc_date', null, ['class' => 'form-control']) !!}
+{{--    {!! Form::date('desc_date', null, ['class' => 'form-control']) !!}--}}
+    <input class="percal form-control" name="desc_date" id="desc_date">
 </div>
 
 <!-- User Id Field -->

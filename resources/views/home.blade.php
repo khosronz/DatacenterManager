@@ -20,7 +20,6 @@
 
                                 <p class="text-muted text-center">{{\Illuminate\Support\Facades\Auth::user()->desc}}</p>
                                 {!! Form::open(['route' => 'software.showdetails','method'=>"GET"]) !!}
-                                {{ csrf_field() }}
                                 @include('software.fields-select')
 
                                 {!! Form::close() !!}
@@ -290,24 +289,25 @@
                                 <div class="tab-pane" id="timeline">
                                     <!-- The timeline -->
                                     <ul class="timeline timeline-inverse">
-                                        <!-- timeline time label -->
-                                        <li class="time-label">
-                        <span class="bg-red">
-                          10 Feb. 2014
-                        </span>
-                                        </li>
-                                        <!-- /.timeline-label -->
+
                                         @if(!empty($software))
                                             @if(count($software->descs)!=0)
                                                 @php
                                                     foreach ($software->descs as $desc){
                                                 @endphp
+                                                <!-- timeline time label -->
+                                                    <li class="time-label">
+                                                        <span class="bg-red">
+                                                          {{jdate($desc->desc_date)->getYear().'/'.jdate($desc->desc_date)->getMonth().'/'.jdate($desc->desc_date)->getDay()}}
+                                                        </span>
+                                                    </li>
+                                                <!-- /.timeline-label -->
                                                 <!-- timeline item -->
                                                     <li>
                                                         <i class="fa fa-envelope bg-blue"></i>
 
                                                         <div class="timeline-item">
-                                                            <span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
+                                                            <span class="time"><i class="fa fa-clock-o"></i> {{jdate($desc->desc_date)->getHour().':'.jdate($desc->desc_date)->getMinute().':'.jdate($desc->desc_date)->getSecond()}}</span>
 
                                                             <h3 class="timeline-header"><a href="#">{{$desc->user->name}}</a> @lang('sent you an email')</h3>
 
@@ -328,27 +328,6 @@
                                                 <span class="label label-danger">@lang('Not Found Desc')</span>
                                         @endif
                                     @endif
-                                        <!-- timeline item -->
-                                        <li>
-                                            <i class="fa fa-comments bg-yellow"></i>
-
-                                            <div class="timeline-item">
-                                                <span class="time"><i class="fa fa-clock-o"></i> 27 mins ago</span>
-
-                                                <h3 class="timeline-header"><a href="#">Jay White</a> commented on
-                                                    your post</h3>
-
-                                                <div class="timeline-body">
-                                                    Take me to your leader!
-                                                    Switzerland is small and neutral!
-                                                    We are more like Germany, ambitious and misunderstood!
-                                                </div>
-                                                <div class="timeline-footer">
-                                                    <a class="btn btn-warning btn-flat btn-xs">View comment</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <!-- END timeline item -->
                                         <!-- timeline time label -->
                                         <li class="time-label">
                         <span class="bg-green">

@@ -2,6 +2,7 @@
 //// Fonts
 
 @import "../../public/assets/Yekan-Font-master/stylesheet.css";
+@import "../../node_modules/persian-datepicker/src/sass/persian-datepicker";
 //
 // Variables
 @import 'variables';
@@ -14,3 +15,5 @@ body, h1, h2, h3, h4, h5, h6, a, p, ul, li, b{
 .main-sidebar {
   direction:ltr;
 }
+
+
